@@ -1,8 +1,6 @@
 
 import { Container, Content } from './styles'
 import logoImg from '../../assets/logo.svg'
-import Modal from 'react-modal'
-import { useState } from 'react'
 
 interface headerProps {
     onOpenNewTransactionModal: () => void;
